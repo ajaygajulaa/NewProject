@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Sign in · Northstar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="login-card" aria-labelledby="login-title">
+      <div class="brand" aria-label="Northstar">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>northstar</span>
+      </div>
+
+      <div class="intro">
+        <p class="eyebrow">YOUR SPACE TO FOCUS</p>
+        <h1 id="login-title">Welcome back.</h1>
+        <p>Sign in to pick up where you left off.</p>
+      </div>
+
+      <div class="fields" aria-describedby="demo-notice">
+        <div class="field">
+          <label for="email">Email address</label>
+          <input id="email" type="email" placeholder="you@example.com" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter your password" autocomplete="off">
+        </div>
+        <button type="button" disabled>Sign in <span aria-hidden="true">→</span></button>
+      </div>
+
+      <p class="demo-notice" id="demo-notice"><span aria-hidden="true">✦</span> Demo only — sign-in is unavailable. Please don't enter real credentials.</p>
+    </section>
+    <p class="footer">A little more room for what matters.</p>
+  </main>
+</body>
+</html>
